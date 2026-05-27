@@ -72,12 +72,12 @@ white,
   padding: 20px;
 }
 
-.hero h1 {
-  font-size: 90px;
-  max-width: 900px;
-  margin-bottom: 20px;
-  text-shadow: 0 0 20px rgba(255, 255, 255, .15);
-  animation: fadeUp 1s ease;
+.hero h1{
+font-size:70px;
+max-width:900px;
+margin-bottom:20px;
+line-height:1.1;
+padding-top:80px;
 }
 
 .hero p {
