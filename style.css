@@ -312,3 +312,16 @@ footer a:hover {
     transform: translateY(0);
   }
 }
+.hero{
+  min-height:100vh !important;
+  height:auto !important;
+  padding-top:220px !important;
+  padding-bottom:100px !important;
+  justify-content:flex-start !important;
+}
+
+.hero h1{
+  font-size:65px !important;
+  line-height:1.1 !important;
+  margin-top:0 !important;
+}
