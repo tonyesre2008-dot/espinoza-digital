@@ -63,21 +63,22 @@ white,
 .hero {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 170px 20px 80px;
 }
 
-.hero h1{
-font-size:70px;
-max-width:900px;
-margin-bottom:20px;
-line-height:1.1;
-padding-top:80px;
+.hero h1 {
+  font-size: 70px;
+  max-width: 900px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-shadow: 0 0 20px rgba(255, 255, 255, .15);
+  animation: fadeUp 1s ease;
 }
 
 .hero p {
